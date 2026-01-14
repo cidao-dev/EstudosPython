@@ -1,0 +1,5 @@
+nome = input('Qual o seu nome? ')
+idade = input ('Qual a sua idade? ')
+cidade = input ('Você mora em qual cidade? ')
+trabalho = input ('Com o que você trabalha? ')
+print(nome, idade, cidade, trabalho)
