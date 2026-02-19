@@ -1,8 +1,1 @@
-soma = 0
-cont = 0
-for c in range(0, 501, 2):
-    if = % 3 == 0
-        print(c)
-    soma = soma + c
-    cont = cont +1
-print(f'A soma de todos os valores {cont} solicitado é {soma}')
+print('Deu erro aqui e não sabia qual era o erro, acabei apagando tudo.')

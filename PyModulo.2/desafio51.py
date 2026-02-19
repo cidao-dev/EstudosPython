@@ -1,0 +1,6 @@
+primeiro = int(input('Primeiro número: '))
+razão = int(input('Razão: '))
+décimo = primeiro + (10 -1) * razão
+for c in range(primeiro, décimo, razão):
+    print(f'{c}', end=' -')
+print('ACABOU')
