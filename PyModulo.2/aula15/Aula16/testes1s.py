@@ -5,13 +5,12 @@ for c in range(0, 5):
     valores.append(int(input(f'Digite um valor para a posição {c}: ')))
     if c == 0:
         mai = men = valores[c]
-    else: 
+    else:
         if valores[c] > mai:
             mai = valores[c]
         if valores[c] < men:
             men = valores[c]
-
 print('-' * 30)
-print(f'Você digitou os valores {valores}')
+print(f'Você digitou os valores {valores}.')
 print(f'O maior valor digitado foi {mai}.')
-print(f'O menor valor digitado foi {men}. ')
+print(f'O menor valor digitado foi {men}.')
